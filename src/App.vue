@@ -8,7 +8,7 @@
           <label class="bill__text" for="input-bill"> Bill </label>
           <div class="input-container">
             <i class="input-icon">
-              <DollarIcon />
+              <img src="./assets/dollar.svg" alt="dollar icon" />
             </i>
             <input
               class="input input-bill"
@@ -50,7 +50,7 @@
           </div>
           <div class="input-container">
             <i class="input-icon">
-              <PersonIcon />
+              <img src="./assets/person.svg" alt="person icon" />
             </i>
             <input
               :class="['input', 'input-people', { warning: people === 0 }]"
