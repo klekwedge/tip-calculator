@@ -24,7 +24,7 @@
         <div>
           <p class="bill__text">Select Tip %</p>
           <div class="bill__buttons">
-            <ButtonComponent
+            <Button
               @percentageClicked="selectTip"
               v-for="percentage in percentages"
               :key="percentage"
@@ -64,7 +64,7 @@
         </div>
       </div>
 
-      <ContainerTip
+      <Container
         :tipAmount="tipAmount"
         :billPerPerson="billPerPerson"
         @onReset="reset"
