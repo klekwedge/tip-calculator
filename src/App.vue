@@ -1,7 +1,7 @@
 
 <template>
   <div class="main-container">
-    <img class="logo" src="./assets/SPLITTER.png" alt="splitter" />
+    <img class="logo" src="./assets/logo.png" alt="splitter" />
     <div class="main">
       <div class="bill">
         <div>
